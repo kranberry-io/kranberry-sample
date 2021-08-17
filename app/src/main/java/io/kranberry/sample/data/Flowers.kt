@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.data
+package io.kranberry.sample.data
 
 import android.content.res.Resources
-import com.example.recyclersample.R
+import io.kranberry.sample.R
 
 /* Returns initial list of flowers. */
 fun flowerList(resources: Resources): List<Flower> {

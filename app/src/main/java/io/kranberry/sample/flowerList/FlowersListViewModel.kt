@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.flowerList
+package io.kranberry.sample.flowerList
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.recyclersample.data.DataSource
-import com.example.recyclersample.data.Flower
+import io.kranberry.sample.data.DataSource
+import io.kranberry.sample.data.Flower
 import kotlin.random.Random
 
 class FlowersListViewModel(val dataSource: DataSource) : ViewModel() {

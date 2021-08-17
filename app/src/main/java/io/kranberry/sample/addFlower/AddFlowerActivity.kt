@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.addFlower
+package io.kranberry.sample.addFlower
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.recyclersample.R
 import com.google.android.material.textfield.TextInputEditText
+import io.kranberry.sample.R
 
 const val FLOWER_NAME = "name"
 const val FLOWER_DESCRIPTION = "description"

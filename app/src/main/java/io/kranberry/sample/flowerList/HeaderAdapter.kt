@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.flowerList
+package io.kranberry.sample.flowerList
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclersample.R
+import io.kranberry.sample.R
 
 /* A list always displaying one element: the number of flowers. */
 

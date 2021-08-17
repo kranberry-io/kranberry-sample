@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.flowerList
+package io.kranberry.sample.flowerList
 
 import android.app.Activity
 import android.content.Intent
@@ -24,12 +24,12 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclersample.addFlower.AddFlowerActivity
-import com.example.recyclersample.flowerDetail.FlowerDetailActivity
-import com.example.recyclersample.R
-import com.example.recyclersample.addFlower.FLOWER_DESCRIPTION
-import com.example.recyclersample.addFlower.FLOWER_NAME
-import com.example.recyclersample.data.Flower
+import io.kranberry.sample.R
+import io.kranberry.sample.addFlower.AddFlowerActivity
+import io.kranberry.sample.flowerDetail.FlowerDetailActivity
+import io.kranberry.sample.addFlower.FLOWER_DESCRIPTION
+import io.kranberry.sample.addFlower.FLOWER_NAME
+import io.kranberry.sample.data.Flower
 
 const val FLOWER_ID = "flower id"
 

@@ -22,8 +22,8 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.example.recyclersample"
-        minSdkVersion 21
+        applicationId "io.kranberry.sample"
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -63,7 +63,4 @@ dependencies {
 
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.liveDataVersion"
-
-    // Kranberry
-    androidTestImplementation 'io.github.kranberry-io:kranberry:0.6-alpha'
 }

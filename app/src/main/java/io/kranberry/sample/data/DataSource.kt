@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.data
+package io.kranberry.sample.data
 
 import android.content.res.Resources
 import androidx.lifecycle.LiveData
