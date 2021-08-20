@@ -17,6 +17,15 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: "io.github.kranberry-io.runtests"
+
+kranberryTests {
+    packageName = "io.kranberry.sample"
+    packageTests = "io.kranberry.sample.test"
+    apkOutputPath = "build/outputs/apk/debug/app-debug.apk"
+    androidTestApkOutputPath = "build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+    testsRunner = "androidx.test.runner.AndroidJUnitRunner"
+}
 
 android {
     compileSdkVersion 30
@@ -65,5 +74,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.liveDataVersion"
 
     // Kranberry
-    androidTestImplementation 'io.github.kranberry-io:kranberry:0.6-alpha'
+    androidTestImplementation 'io.github.kranberry-io:kranberry:1.0-beta'
 }
