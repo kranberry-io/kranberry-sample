@@ -1,3 +1,4 @@
+package io.kranberry.sample
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SdkSuppress
 import feature.App
