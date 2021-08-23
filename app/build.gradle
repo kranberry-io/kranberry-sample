@@ -65,4 +65,7 @@ dependencies {
 
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.liveDataVersion"
+
+    // Kranberry
+    androidTestImplementation 'io.github.kranberry-io:kranberry:1.0.1-beta'
 }
