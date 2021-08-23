@@ -51,3 +51,7 @@ proguard-project.txt
 
 # Android Studio/IDEA
 .idea
+
+# Output Files Kranberry Library
+/kranberry-outputs/
+/app/kranberry-outputs/
