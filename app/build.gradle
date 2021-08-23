@@ -17,6 +17,16 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: "io.github.kranberry-io.runtests"
+
+kranberryTests {
+    packageName = "io.kranberry.sample"
+    packageTests = "io.kranberry.sample.test"
+    applicationId = "io.kranberry.sample"
+    apkOutputPath = "build/outputs/apk/debug/app-debug.apk"
+    androidTestApkOutputPath = "build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+    testsRunner = "androidx.test.runner.AndroidJUnitRunner"
+}
 
 android {
     compileSdkVersion 30
